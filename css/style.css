@@ -1,0 +1,327 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #475a5c;
+    width: 100%;
+}
+
+section {
+    
+    background-color: white;
+    
+}
+
+.hero {
+    background-color: #cba994;
+    height: 80vh;
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #f7f6f3;
+    color: #475a5c;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px; 
+    background-color: #f7f6f3;
+    color: #475a5c;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav-list {
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+
+
+li {
+    /*width: 200px;*/
+    text-decoration: none;
+    color: #475a5c;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 450;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #475a5c;
+}
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    /*flex-direction: column;*/
+    height: 100%;
+    text-align: center;
+}
+
+.email-address {
+    padding-top: 120px;
+    text-align: center;
+}
+
+.email-text {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
+
+.htmlrole-text {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.hero-text {
+    margin: auto;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.hero-links {
+    padding-right: 0px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;
+    background-color: #97644a;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.portfolio-text {
+    color: white;
+}
+
+.button:hover {
+    background-color: #b98766;
+}
+
+.button:active {
+    background-color: #a9a9a9;
+    color: #808080;
+
+}
+
+.socials {
+    padding-bottom: 70px;
+    display: flex;
+    margin: auto;
+    margin-left: 120px;
+}
+
+.logo {
+    font-size: 25px;
+    margin: 20px 30px 20px 30px;
+}
+
+.dev-color {
+    color: #97644a;
+}
+
+.social {
+    margin: 10px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    color: #475a5c;
+    padding: 80px 80px 20px 80px;
+}
+
+.sub-section-skills {
+    text-align: center;
+    flex-direction: column;
+    padding: 10px 80px 20px 80px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.skill-icons {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    
+}
+
+.litmus-icon {
+    width: 80px;
+    height: 80px;
+}
+
+.icon {
+    padding: 40px 20px 0 20px ;
+    
+}
+
+.sub-section-portfolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 80px 80px 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.aboutme-paragraph {
+    text-align: left;
+    font-size: 16px;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #97644a;
+}
+
+.footer-icons {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 0;
+}
+
+.footer-icon {
+    padding: 20px 10px 0 0;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: #97644a;
+        font-size: 30px;
+        margin: 20px 10px 0 0;
+        align-self: flex-end;
+        padding: 10px;
+    }
+
+    ul {
+        display: none;
+        background-color: #f7f6f3;
+        margin: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #f7f6f3;
+    }
+
+    .logo {
+        display: none;
+    
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    .sub-section {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+    
+    
+
