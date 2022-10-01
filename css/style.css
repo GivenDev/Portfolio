@@ -13,7 +13,7 @@ section {
 
 .hero {
     background-color: #cba994;
-    height: 75vh;
+    height: 80vh;
     color: white;
     font-size: 40px;
 }
@@ -317,7 +317,7 @@ hr {
         display: none;
         background-color: #f7f6f3;
         margin: 0;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 1.8;
     }
 
@@ -337,16 +337,22 @@ hr {
         display: block;
     }
 
-    .hero {
-        height: 75vh;
-    }
 
     .hero-text {
         padding: 80px 0 30px 0;
     }
 
+    h1 {
+        font-size: 40px;
+        font-weight: 450;
+
+    }
+
     .socials {
-        padding-bottom: 80px;
+        padding-bottom: 20px;
+        margin-left: 80px;
+        
+        
     }
 
     .sub-section {
@@ -374,11 +380,6 @@ hr {
         margin: auto;
         align-items: center;
         flex-wrap: wrap;
-    }
-    
-    .litmus-icon {
-        width: 80px;
-        height: 80px;
     }
     
 }
